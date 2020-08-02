@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700,800&display=swap');
+body{
+     margin: 0;
+     overflow-x: hidden;
+}
+
+.row:after,
+.row:before {
+    display: inline-block !important
+}
+
+.ui-autocomplete{
+  width: 395px;
+  border: 1px solid #b3b1b3;
+  background-color: #FFF;
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+* html .ui-autocomplete {
+    height: 150px;
+}
+.ui-autocomplete .ui-menu-item{
+  padding-bottom: 3px;
+  font-family: "Barlow", sans-serif !important;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  padding: 6px 0 0 5px;
+  height: 25px;
+  cursor: pointer;
+}
+.ui-autocomplete .ui-menu-item.ui-state-focus{
+  background-color: #CCC;
+}
+
+/* Seccion 1 */
+.section-01 {
+  height: 255px;
+  background-image: url('../img/fondos/banner-ppal-mob.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.section-01 .title-box{
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFF;
+  text-align: center;
+  margin-top: 5px;
+}
+.section-01 .ico {
+  width: auto !important;
+}
+.section-01 .activa {
+  margin-top: 30px;
+}
+.section-01 .noactiva {
+  margin-top: 30px;
+}
+.section-01 .title-ppal{
+ font-family: 'Barlow';
+ font-weight: 500;
+ font-size: 22px;
+ color: #FFF;
+ text-align: center;
+ padding-top: 20px;
+ margin-top: 0px !important;
+}
+.section-01 .form-control {
+  padding: 6px 6px 10px 40px !important;
+  border-radius: 25px;
+  height: 45px !important;
+  margin-top: 20px;
+}
+.section-01 .form-control-search {
+  border-radius: 25px 25px 0 0;
+}
+.section-01 .ico-search {
+  float: left;
+  margin-left: 10px;
+  margin-top: -35px;
+  font-size: 25px;
+  position: relative;
+  z-index: 2;
+  color: #999999;
+  cursor: pointer;
+}
+.section-02 {
+  margin-bottom: 50px;
+}
+.section-02 .ico-vineta {
+  width: auto !important;
+}
+.section-02 .title-resultados {
+ font-family: 'Barlow';
+ font-weight: 500;
+ font-size: 22px;
+ color: #000000;
+ text-align: left;
+ border-bottom: 1px solid #ccc;
+}
+.section-02 .title-frecuente {
+ font-family: 'Barlow';
+ font-weight: 500;
+ font-size: 18px;
+ color: #333333;
+ text-align: left;
+ border-bottom: 1px solid #ccc;
+}
+.section-02 .box {
+    min-width: 240px;
+    max-width: 100%;
+    background: #FFF;
+    border: solid 1px #cccccc;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-family: 'Barlow';
+    font-weight: 500;
+    min-height: 104px;
+    max-height: 105px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.section-02 .box:hover {
+    background: #f2f2f2;
+    border: solid 1px #cccccc;
+}
+.section-02 .txt-busqueda {
+  font-family: 'Barlow';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #002eff;
+  text-align: left;
+  margin-bottom: 0px !important;
+}
+.section-02 .txt-frecuente {
+ font-family: 'Barlow';
+ font-weight: 400;
+ font-size: 13px;
+ color: #002eff;
+ text-align: left;
+}
+.section-02 .content-all:after {
+  content: '\f054';
+  color: #4a4a4a;
+  font-weight: bold;
+  margin-left: 5px;
+  font-family: FontAwesome;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  padding-right: 2.725rem;
+}
+.section-02 .txt-busqueda-dos {
+ font-family: 'Barlow';
+ font-weight: 400;
+ font-size: 14px;
+ color: #000000;
+ text-align: left;
+ margin-bottom: 0px !important;
+ margin-left: 20px;
+}
+.section-02 .bordercito {
+  border-bottom: 1px solid #333;
+}
+.section-02 .ico-busqueda {
+ width: auto !important;
+}
+
+@media only screen and (min-width: 321px) {
+
+}
+
+@media only screen and (min-width: 375px) { 
+}
+
+@media only screen and (min-width: 411px) {
+}
+
+@media only screen and (min-width: 568px) {
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .section-01 .box {
+    height: 225px;
+  }
+}
+@media only screen and (min-width: 667px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .section-01 {
+    height: 310px;
+    background-image: url('../img/fondos/banner-ppal.png');
+  }
+  .section-01 .activa{
+    margin-top: 65px;
+  }
+  .section-01 .noactiva{
+    margin-top: 65px;
+  }
+  .section-02 .title-resultados {
+    text-align: left;
+  }
+  .section-02 .m-topextra {
+    margin-top: 45px;
+  }
+  .section-01 .box {
+    height: 224px;
+  }
+} 
+
+@media only screen and (min-width: 800px) { 
+
+
+}
+@media only screen and (min-width: 900px) { 
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+  .section-01 .activa {
+    margin-top: 70px;
+  }
+  .section-01 .noactiva {
+    margin-top: 40px;
+  }
+} 
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .section-01 {
+    height: 370px;
+  }
+  .section-01 .activa{
+    margin-top: 100px;
+  }
+  .section-01 .noactiva{
+    margin-top: 70px;
+  }
+}
+@media only screen and (min-width: 1366px) { 
+
+}
+@media only screen and (min-width: 1440px) { 
+
+}
+@media only screen and (min-width: 1560px) { 
+}
+@media only screen and (min-width: 1600px) { 
+}
+@media only screen and (min-width: 1920px) { 
+  .section-01 .activa {
+    margin-top: 150px;
+  }
+  .section-01 .noactiva {
+    margin-top: 60px;
+  }
+  .section-01 {
+    height: 495px;
+  }
+}
